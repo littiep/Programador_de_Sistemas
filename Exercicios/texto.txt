@@ -1,1 +1,4 @@
 :wq sair do  git commit
+f e v = f
+f ou v = v
+nao verdadeiro = !u = f
