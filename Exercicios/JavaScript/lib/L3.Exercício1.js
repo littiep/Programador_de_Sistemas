@@ -16,17 +16,3 @@ console.log(avaliar(0))
 console.log(avaliar(2.725))
 console.log(avaliar(100))
 console.log(avaliar(-5))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
