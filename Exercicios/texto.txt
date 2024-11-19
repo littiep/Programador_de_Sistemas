@@ -18,3 +18,16 @@ Operadores racionais
 5 >= 10 - true
 10 <= 10 - true
 
+function avaliar(media) {
+if (media >= 6.5) {
+    return "Aprovado"
+}
+else {
+    return "Reprovado"
+}
+}
+console.log(avaliar(6.5))
+console.log(avaliar(3))
+console.log(avaliar(8))
+
+Casos de borda
