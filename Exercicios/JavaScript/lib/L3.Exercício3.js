@@ -5,9 +5,7 @@ function positivo(num) {
     else if (num < 0) {
         return "Negativo"
     }
-    else if (num == 0){
-        return "Zero"
-    }
+        return "Zero"  
 }
 
 console.log(positivo(5))

@@ -2,9 +2,8 @@ function iop(x) {
     if (x % 2 === 0) {
         return "Par"
     }
-    else {
-        return "Impar"
-    }
+    return "Impar"
+    
 } 
  
 console.log(iop(4))
