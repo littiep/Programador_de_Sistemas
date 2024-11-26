@@ -1,23 +1,28 @@
-function primo(num) {
-    if (num <= 0) {
+function primo(np) {
+    if (np < 2) {
         return false
     }
-    if (num === 2 || num === 7 ) {
-        return true
+    // if (np == 2 ) {
+    //     return true
+    // }
+for (var div = 2; div < np; div++) {
+    if (np % div == 0 ) {
+        return false 
     }
-    if (num % 2 === 0 || num % 3 === 0 || num % 5 === 0 || num % 7 === 0 || num % 11 === 0 )
-    return false
-else {
+}
     return true
 }
-}
 
-console.log(primo(7))
-console.log(primo(10))
-console.log(primo(13))
-console.log(primo(0))
-console.log(primo(1))
-console.log(primo(2))
-console.log(primo(3015))
-console.log(primo(707))
-console.log(primo(143))
+
+console.log(primo(7)) //true
+console.log(primo(10)) //false
+console.log(primo(13)) //true
+console.log(primo(0)) //false 
+console.log(primo(1)) //false 
+console.log(primo(2)) //true
+// console.log(primo(327)) // false 
+// console.log(primo(847)) // false
+// console.log(primo(1573)) //false 
+// console.log(primo(31)) //true 
+// console.log(primo(-3)) // false
+// console.log(primo(-31)) //false
