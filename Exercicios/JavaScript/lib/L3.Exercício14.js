@@ -1,14 +1,11 @@
 function primo(np) {
-    if (np < 2) {
-        return false
-    }
+    if (np < 2) return false;
+
     // if (np == 2 ) {
     //     return true
     // }
 for (var div = 2; div < np; div++) {
-    if (np % div == 0 ) {
-        return false 
-    }
+    if (np % div == 0 ) return false;
 }
     return true
 }
@@ -20,9 +17,10 @@ console.log(primo(13)) //true
 console.log(primo(0)) //false 
 console.log(primo(1)) //false 
 console.log(primo(2)) //true
-// console.log(primo(327)) // false 
-// console.log(primo(847)) // false
-// console.log(primo(1573)) //false 
-// console.log(primo(31)) //true 
-// console.log(primo(-3)) // false
-// console.log(primo(-31)) //false
+console.log("------------")
+console.log(primo(327)) // false 
+console.log(primo(847)) // false
+console.log(primo(1573)) //false 
+console.log(primo(31)) //true 
+console.log(primo(-3)) // false
+console.log(primo(-31)) //false
