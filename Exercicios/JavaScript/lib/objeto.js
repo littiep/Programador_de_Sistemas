@@ -17,46 +17,42 @@
             step:36,
         },
         velocidade:0,
+        acelerar: function() {
+            this.velocidade += 5
+        },
+        frear: function() {
+            this.velocidade  -= 13
+            if (this.velocidade < 0 )  this.velocidade = 0
+        },
+        imprimir: function() {console.table(this)},
         velocidadeMaxima:220,
         classe: "esportivo",
         localDeFabricaçao:"massachussets",
     }
-    var carro2 = {
+    var porsche = {
         marca: "porsche",
         modelo: "911 carrera",
         velocidade: 0,
+        acelerar: function() {
+            this.velocidade += 5
+        },
+        frear: function() {
+            this.velocidade  -= 13
+            if (this.velocidade < 0 )  this.velocidade = 0
+        },
     }
 
-    // function p(car) {
-        
-        function acelerar(car) {
-            car.velocidade += 5
-    }
-
-    function frear(car) {
-        car.velocidade -= 13
-        if (car.velocidade < 0 )  car.velocidade = 0
-    }
+    while (carro1.velocidade < 80) carro1.acelerar()
 
 
-    while(carro2.velocidade < 80) {
-        acelerar(carro2)
-    }
-    while (carro2.velocidade > 60) {
-        frear(carro2)
-    }
-    while (carro2.velocidade > 0) {
-        frear(carro2)
-    }
-    // }
+    // while(porsche.velocidade < 80)  porsche.acelerar()
+  
+    // while (porsche.velocidade > 60) porsche.frear()
 
-
-
-    // while (carro2.velocidade < 0 ) {
-    //     carro2.velocidade + 1
-    // }
+    // while (porsche.velocidade > 0)  porsche.frear()
 
 
 
     // console.table(p(carro1))
     // console.table(p(carro2))
+console.table(carro1)

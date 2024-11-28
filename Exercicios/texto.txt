@@ -1,5 +1,5 @@
 :wq sair do  git commit
-
+alt ; shift ; f formatar
 
 
 
