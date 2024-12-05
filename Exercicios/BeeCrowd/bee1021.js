@@ -3,19 +3,29 @@ var input = require('fs').readFileSync('./input.txt', 'utf8');
 var lines = input.split('\n');
 // console.log(lines)var 
 
-// const cedulas = [100, 50, 20, 10, 5, 2 ]
-
-// var n = Number(lines[0])
-
-// console.log(n)
-
-// for (let i = 0;i < 7; i++) {
-//     let nota = cedulas[i]
+const cedulas = [100, 50, 20, 10, 5, 2,]
+const moedas = [1, 0.50, 0.25, 0.10, 0.05, 0.01]
 
 
-//     var conta = Math.floor(n/nota); n %= 100
-//     console.log(`${conta} nota(s) de R$ ${nota},00`)
-// }
+var n = Number(lines[0])
+
+console.log(n)
+
+for (let i = 0;i < cedulas.length; i++) {
+    let nota = cedulas[i]
+
+
+    var conta = Math.floor(n/nota); n %= 100
+    console.log(`${conta} nota(s) de R$ ${nota},00`)
+}
+
+for (let i = 0; i < moedas.length; i++) {
+    let moeda = moedas[i]
+
+
+    var count = Math.floor (conta/moeda) ; n %= 100
+    console.log(`${count} moeda(s) de R$ ${moeda}`)
+}
 
 
 // var n = Number(lines[0])
