@@ -1,9 +1,13 @@
 :wq sair do  git commit
 alt ; shift ; f formatar
 
+3.0 4.0 5.2
 
-
-
+TRIANGULO: 7.800
+CIRCULO: 84.949
+TRAPEZIO: 18.200
+QUADRADO: 16.000
+RETANGULO: 12.000
 
 
 
