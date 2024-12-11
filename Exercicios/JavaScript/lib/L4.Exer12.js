@@ -1,13 +1,13 @@
 function somarArr(arr) {
 
 
-    var som = 0
+    const valorInicial = 0
     var array1 = arr.toString().split('')
-    for (let i = 0; i < array1.length; i++) {
-        som += Number(array1[i])
-
-    }
-    return som
+    var soma = array1.reduce(
+        (acc, cur) => acc + cur,
+        valorInicial,
+    )
+    return soma
 }
 
 

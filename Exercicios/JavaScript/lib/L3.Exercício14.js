@@ -4,8 +4,8 @@ function primo(np) {
     // if (np == 2 ) {
     //     return true
     // }
-for (var div = 2; div < np; div++) {
-    if (np % div == 0 ) return false;
+for (var i = 2; i < np; i++) {
+    if (np % i == 0 ) return false;
 }
     return true
 }

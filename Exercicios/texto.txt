@@ -9,14 +9,16 @@ TRAPEZIO: 18.200
 QUADRADO: 16.000
 RETANGULO: 12.000
 
+funçao anonima
+
+const media = (media) => media >= 7 ? "apr" : "rep"
+
+
+
+const media = {
+    return (media) => media >= 7 ? "apr" : "rep"
+}
 
 
 
 
-
-
-
-
-
-
-g
