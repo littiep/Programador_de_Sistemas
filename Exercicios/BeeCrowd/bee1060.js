@@ -2,14 +2,20 @@
 
 var input = require('fs').readFileSync('./input.txt', 'utf8');
 // console.log(input)
-var lines = input.split('\n');
+var lines = input.trim().split('\n');
 
-var x = 0
+var numPositivo = lines.map(Number).filter((x) => x > 0) 
 
-for (let i = 0; i < lines.length; i++) {
-    if (lines[i] > 0) {
-        x++
+console.log(`${numPositivo.length} valores positivos`)
 
-    }
-}
-console.log(x)
+
+
+// var x = 0
+
+// for (let i = 0; i < lines.length; i++) {
+//     if (lines[i] > 0) {
+//         x++
+
+//     }
+// }
+// console.log(x)

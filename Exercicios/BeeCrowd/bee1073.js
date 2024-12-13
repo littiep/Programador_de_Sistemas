@@ -10,3 +10,4 @@ for (var i = 2; i < a; i = i + 2) {
     var qdd = i ** x
     x = qdd
 }
+
