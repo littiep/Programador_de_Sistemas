@@ -8,7 +8,7 @@ var ddd = Number(lines[0])
 var dddCidades = {
     61: 'Brasilia',
     71: 'Salvador',
-    11: 'Sao paulo', 
+    11: 'Sao Paulo', 
     21: 'Rio de Janeiro',
     32: 'Juiz de Fora',
     19: 'Campinas',
@@ -19,6 +19,6 @@ var dddCidades = {
 
 
 
-    if (ddd === 61 || ddd === 71 || ddd === 11 || ddd === 21 || ddd === 32 || ddd === 19 || ddd === 27 || ddd === 31) {
+    if (Object[key])
         console.log(dddCidades[ddd])
-    } else {console.log("DDD nao cadastrado")}
+     {console.log("DDD nao cadastrado")}
