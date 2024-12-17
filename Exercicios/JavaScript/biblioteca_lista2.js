@@ -7,9 +7,9 @@ export function soma(x, y) {
 
 
 //exercicio 5
-export function mediaLista(arr) {
-    const soma = arr.reduce(
-        (acumulador, valorAtual) => acumulador + valorAtual / arr.length, 
-        0)
-    return parseInt(soma)
-    }
+// export function mediaLista(arr) {
+//     const soma = arr.reduce(
+//         (acumulador, valorAtual) => acumulador + valorAtual / arr.length, 
+//         0)
+//     return parseInt(soma)
+//     }
