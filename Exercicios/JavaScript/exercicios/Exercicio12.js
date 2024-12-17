@@ -9,10 +9,11 @@
 // Procedimento
 
 
-function dob(x) {
-    let db = x * 2
+// function dob(x) {
+//     let db = x * 2
+// }
+import { dob } from "../lib/biblioteca_lista2.js";
 
-    console.log(db)
-}
 
+console.log(dob(4))
 
