@@ -22,6 +22,6 @@
 // );
 // return soma 
 // }
-import { somarArr } from "../biblioteca_lista4.js"
+import { somarLista } from "../../lib/biblioteca_lista4.js"
 
-console.log(somarArr([1, 2, 3, 4, 5]))
+console.log(somarLista([1, 2, 3, 4, 5]))

@@ -12,7 +12,7 @@
 // return parseInt(soma)
 
 // }
-import { mediaLista } from "../biblioteca_lista4.js"
+import { mediaLista } from "../../lib/biblioteca_lista4.js"
 
 console.log(mediaLista([1, 2, 4, 5, 7, 8, 10, 11]))
 console.log(mediaLista([10, 70, 30, 50]))
