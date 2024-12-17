@@ -1,6 +1,2 @@
 //procedimento
-
-function nome(x) {
-    <p>(x)</p>
-    console.log(document.write("Hello World"))
-}
+console.log(document.write("Hello World"))

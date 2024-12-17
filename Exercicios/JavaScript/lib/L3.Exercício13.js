@@ -5,8 +5,15 @@ function imprimirTabuada() {
                 }    
                 console.log("\n===============\n")
             }
-        }
-        imprimirTabuada()
+}
+// import { imprimirTabuada } from "../biblio.js";
+// imprimirTabuada()
+
+
+// import biblioteca from "../biblio.js"
+// console.log(biblioteca.imprimirTabuada())
+
+
         
         // function tabuada(n){
         //     for(var k=0; k<- 10; k++) {

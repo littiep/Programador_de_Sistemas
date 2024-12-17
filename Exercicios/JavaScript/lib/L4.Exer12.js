@@ -1,16 +1,20 @@
+// function somarArr(arr) {
+//     var array1 = arr.toString().split('')
+//     var soma = array1.reduce(
+//         (acc, cur) => acc + cur,
+//         0
+//     )
+//     return soma
+// }
 function somarArr(arr) {
-
-
-    const valorInicial = 0
-    var array1 = arr.toString().split('')
-    var soma = array1.reduce(
+    var res = arr.toString().split('').map(Number).reduce(
         (acc, cur) => acc + cur,
-        valorInicial,
+        0
     )
-    return soma
+    return res
 }
 
-
+// import { somarArr } from "../biblio.js"
 
 console.log(somarArr(123))
 console.log(somarArr(456789))

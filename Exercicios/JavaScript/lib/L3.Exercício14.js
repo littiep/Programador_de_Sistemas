@@ -1,7 +1,7 @@
 function primo(np) {
     if (np < 2) return false;
 
-    // if (np == 2 ) {
+    // if (np == 2 ) { 
     //     return true
     // }
 for (var i = 2; i < np; i++) {

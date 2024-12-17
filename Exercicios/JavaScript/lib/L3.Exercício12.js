@@ -11,17 +11,17 @@
 // imprimirTabuada(2)
 // imprimirTabuada(10)
 
-// function tabuada(x) {
-//     for (var m = 0; m <= 10; m++) {
-//         var p = x * m
-//         console.log(`${x} x ${m} = ${p}`)
-//     }
+function tabuada(x) {
+    for (var m = 0; m <= 10; m++) {
+        var p = x * m
+        console.log(`${x} x ${m} = ${p}`)
+    }
 
-//     return console.log()
+    return console.log()
 
-// }
+}
 
-import { tabuada } from "../biblio.js"
+// import { tabuada } from "../biblio.js"
 
 
 tabuada(2)

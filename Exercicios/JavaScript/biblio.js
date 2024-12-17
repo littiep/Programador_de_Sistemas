@@ -26,8 +26,8 @@ export function somarArr(arr) {
     )
 }
 
-export function tirarMedia(arr) {
-    const soma = arr.reduce (
+export function mediaLista(arr) {
+    const soma = arr.reduce(
         (acumulador, valorAtual) => acumulador + valorAtual / arr.length, 
         0)
     return parseInt(soma)
