@@ -1,7 +1,7 @@
 // function soma(x, y) {
 //     return Number(x) + Number(y)
 // }
-import { soma } from "../biblio.js"
+import { soma } from "../biblioteca_lista2.js"
 
 
 console.log(soma(4, 5))

@@ -5,13 +5,13 @@
 //     return "Impar"
     
 // } 
-function iop(x) {
-    return x % 2 === 0 ? "par" : "impar"
-}
-
+// function iop(x) {
+//     return x % 2 === 0 ? "par" : "impar"
+// }
+import { imparOuPar } from "../biblio.js";
 
  
-console.log(iop(4))
-console.log(iop(7))
-console.log(iop(0))
-console.log(iop(-5));
+console.log(imparOuPar(4))
+console.log(imparOuPar(7))
+console.log(imparOuPar(0))
+console.log(imparOuPar(-5));
