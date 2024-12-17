@@ -14,14 +14,14 @@
 // }
 
 // console.log(r)
-function somarArr(arr) {
-const valorInicial = 0
-const soma = arr.reduce(
-    (acumulador, valorAtual) => acumulador + valorAtual,
-    valorInicial,
-);
-return soma 
-}
-
+// function somarArr(arr) {
+// const valorInicial = 0
+// const soma = arr.reduce(
+//     (acumulador, valorAtual) => acumulador + valorAtual,
+//     valorInicial,
+// );
+// return soma 
+// }
+import { somarArr } from "../biblioteca_lista4.js"
 
 console.log(somarArr([1, 2, 3, 4, 5]))

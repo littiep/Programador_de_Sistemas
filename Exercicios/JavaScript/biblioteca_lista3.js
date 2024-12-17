@@ -1,28 +1,8 @@
-// export function tabuada(x) {
-//     for (var m = 0; m <= 10; m++) {
-//         var p = x * m
-//         console.log(`${x} x ${m} = ${p}`)
-//     }
 
-//     return console.log()
-
-// }
-
-// export function imprimirTabuada() {
-//     for (var n = 1; n <= 10; n++) {
-//             for (var k = 0; k <= 10; k++) {
-//                     console.log(`${n} x ${k} = ${n*k}`)
-//                 }    
-//                 console.log("\n===============\n")
-//             }
-// }
-
-
-
-0
+    export const verificarPar = (a) => a % 2 === 0
 
     export function imparOuPar(x) {
-        return x % 2 === 0 ? "par" : "impar"
+        return verificarPar ? "par" : "impar"
     }
     
     export function menorNumero(num1, num2, num3) {

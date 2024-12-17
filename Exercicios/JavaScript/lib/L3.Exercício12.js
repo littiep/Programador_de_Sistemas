@@ -16,9 +16,7 @@ function tabuada(x) {
         var p = x * m
         console.log(`${x} x ${m} = ${p}`)
     }
-
-    return console.log()
-
+    console.log("===========")
 }
 
 // import { tabuada } from "../biblio.js"
