@@ -10,6 +10,7 @@ export function somarArr(arr) {
 
 
 export function mediaLista(arr1) {
-    let media = arr1.map(Number).reduce(soma / arr1.length, 0)
+    let media = arr1.reduce(soma, 0)
+        media = media / arr1.length
     return media
     }
