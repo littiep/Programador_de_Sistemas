@@ -22,10 +22,11 @@
 
 // console.log(inverter("hello"))
 
-function inverter(a) {
-    var r = a.split('').reverse().join('')
-    return r === a
-}
+// function inverter(a) {
+//     var r = a
+//     var res = a.split('').reverse().join('')
+//     return r === res
+// }
+import { verificarPalindromo } from "../lib/biblioteca_lista4.js"
 
-
-console.log(inverter("racecar"))
+console.log(verificarPalindromo("racecar"))
