@@ -8,7 +8,7 @@
 // function iop(x) {
 //     return x % 2 === 0 ? "par" : "impar"
 // }
-import { imparOuPar } from "../../lib.js/biblioteca_lista3";
+import { imparOuPar } from "../lib.js/biblioteca_lista3";
 
  
 console.log(imparOuPar(4))
