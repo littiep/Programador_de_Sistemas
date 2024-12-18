@@ -17,9 +17,10 @@
 // console.log(inverter("hello"))
 
 
-function inverter(a) {
-    var r = a.split('').reverse().join('')
-    return r
-}
+// function inverter(a) {
+//     var r = a.split('').reverse().join('')
+//     return r
+// }
+import { inverter } from "../lib/biblioteca_lista4.js"
 
 console.log(inverter("hello"))
