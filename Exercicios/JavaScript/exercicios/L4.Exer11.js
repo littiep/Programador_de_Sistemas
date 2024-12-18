@@ -5,14 +5,14 @@
 //     (acumulador, valorAtual) => (acumulador + valorAtual) / arr.length ,0)
 // return soma
 // const valorInicial = 0
-// function tirarMedia(arr) {
+// function mediaLista(arr) {
 // const soma = arr.reduce (
 //     (acumulador, valorAtual) => acumulador + valorAtual / arr.length, 
 //     0)
 // return parseInt(soma)
 
 // }
-import { mediaLista } from "../../lib/biblioteca_lista4.js"
+import { mediaLista } from "../lib/biblioteca_lista4.js"
 
 console.log(mediaLista([1, 2, 4, 5, 7, 8, 10, 11]))
 console.log(mediaLista([10, 70, 30, 50]))
