@@ -14,9 +14,9 @@
 //     return res
 // }
 
-import { somarLista } from "../../lib/biblioteca_lista4.js"
+import { somarArr } from "../lib/biblioteca_lista4.js"
 
-console.log(somarLista(123))
-console.log(somarLista(456789))
-console.log(somarLista(8423416542984721))
+console.log(somarArr(123))
+console.log(somarArr(456789))
+console.log(somarArr(8423416542984721))
 
