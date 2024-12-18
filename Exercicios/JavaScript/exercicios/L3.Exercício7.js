@@ -1,9 +1,11 @@
-function bissexto(ano) {
-   if (ano % 4 == 0 && ano % 100 != 0 || (ano % 400 == 0)) {
-      return true
-   }
-   return false
-}
+// function bissexto(ano) {
+//    if (ano % 4 == 0 && ano % 100 != 0 || (ano % 400 == 0)) {
+//       return true
+//    }
+//    return false
+// }
+
+import { bissexto } from "../lib/biblioteca_lista3.js"
 
 console.log(bissexto(2020))
 console.log(bissexto(2024))
