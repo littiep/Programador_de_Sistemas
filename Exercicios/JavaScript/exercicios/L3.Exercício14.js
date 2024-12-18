@@ -1,15 +1,16 @@
-function primo(np) {
-    if (np < 2) return false;
+// function primo(np) {
+//     if (np < 2) return false;
 
-    // if (np == 2 ) { 
-    //     return true
-    // }
-for (var i = 2; i < np; i++) {
-    if (np % i == 0 ) return false;
-}
-    return true
-}
+//     // if (np == 2 ) { 
+//     //     return true
+//     // }
+// for (var i = 2; i < np; i++) {
+//     if (np % i == 0 ) return false;
+// }
+//     return true
+// }
 
+import { primo } from "../lib/biblioteca_lista3.js"
 
 console.log(primo(7)) //true
 console.log(primo(10)) //false
