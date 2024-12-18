@@ -1,32 +1,6 @@
-// function maiorNumero(num1, num2, num3) {
-//     var maior = num1 
-    
-//      if (num2 > maior) {
-//         maior = num2
-//      }
-//      if (num3 > maior) {
-//         maior = num3
-//      }
-
-//      return maior
- 
-// }
-// console.log(maiorNumero(3, 7, 5))
-// console.log(maiorNumero(-1, -5, -3))
-// console.log(maiorNumero(8, 2, 10))
 
 
-// function maiorNumero(num1, num2, num3) {
-
-//     if (num2 > num1) num1 = num2
-    
-//     if (num3 > num1) num1 = num3
-    
-//     return num1
-
-// }
-
-import { maiorNumero } from "../../lib/biblioteca_lista3"
+import { maiorNumero } from "../lib/biblioteca_lista3.js"
 console.log(maiorNumero(3, 7, 5))
 console.log(maiorNumero(-1, -5, -3))
 console.log(maiorNumero(8, 2, 10))
