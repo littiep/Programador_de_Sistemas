@@ -10,8 +10,8 @@
  
 // }
 
-import { maiorNumero } from "../../lib/biblioteca_lista3.js"
+import { menorNumero } from "../lib/biblioteca_lista3.js"
 
-console.log(maiorNumero(3, 7, 5))
-console.log(maiorNumero(-1, -5, -3))
-console.log(maiorNumero(8, 2, 10))
+console.log(menorNumero(3, 7, 5))
+console.log(menorNumero(-1, -5, -3))
+console.log(menorNumero(8, 2, 10))
